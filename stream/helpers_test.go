@@ -20,7 +20,7 @@ import (
 	"encoding/binary"
 	"testing"
 
-	"github.com/gomqtt/packet"
+	"git.baintex.com/sentio/gomqtt/packet"
 	"github.com/stretchr/testify/require"
 	"io/ioutil"
 )

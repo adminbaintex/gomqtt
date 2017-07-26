@@ -19,7 +19,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/gomqtt/packet"
+	"git.baintex.com/sentio/gomqtt/packet"
 )
 
 // EncodeToWriter encodes a writes a packet to a bufio.Writer.

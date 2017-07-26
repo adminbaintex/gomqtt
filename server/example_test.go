@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/gomqtt/stream"
+	"git.baintex.com/sentio/gomqtt/stream"
 )
 
 func ExampleServer() {

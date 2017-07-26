@@ -18,7 +18,7 @@ import (
 	"net"
 	"testing"
 
-	"github.com/gomqtt/packet"
+	"git.baintex.com/sentio/gomqtt/packet"
 	"github.com/stretchr/testify/require"
 )
 

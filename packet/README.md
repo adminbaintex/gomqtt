@@ -2,8 +2,8 @@
 
 [![Circle CI](https://img.shields.io/circleci/project/gomqtt/packet.svg)](https://circleci.com/gh/gomqtt/packet)
 [![Coverage Status](https://coveralls.io/repos/gomqtt/packet/badge.svg?branch=master&service=github)](https://coveralls.io/github/gomqtt/packet?branch=master)
-[![GoDoc](https://godoc.org/github.com/gomqtt/packet?status.svg)](http://godoc.org/github.com/gomqtt/packet)
-[![Release](https://img.shields.io/github/release/gomqtt/packet.svg)](https://github.com/gomqtt/packet/releases)
+[![GoDoc](https://godoc.org/git.baintex.com/sentio/gomqtt/packet?status.svg)](http://godoc.org/git.baintex.com/sentio/gomqtt/packet)
+[![Release](https://img.shields.io/github/release/gomqtt/packet.svg)](https://git.baintex.com/sentio/gomqtt/packet/releases)
 [![Go Report Card](http://goreportcard.com/badge/gomqtt/packet)](http://goreportcard.com/report/gomqtt/packet)
 
 **Package packet implements functionality for encoding and decoding [MQTT 3.1.1](http://docs.oasis-open.org/mqtt/mqtt/v3.1.1/) packets.**
@@ -21,7 +21,7 @@
 Get it using go's standard toolset:
 
 ```bash
-$ go get github.com/gomqtt/packet
+$ go get git.baintex.com/sentio/gomqtt/packet
 ```
 
 ## Usage
@@ -76,7 +76,7 @@ case CONNECT:
 // amazing!
 ```
 
-More details can be found in the [documentation](http://godoc.org/github.com/gomqtt/packet).
+More details can be found in the [documentation](http://godoc.org/git.baintex.com/sentio/gomqtt/packet).
 
 ## Credits
 

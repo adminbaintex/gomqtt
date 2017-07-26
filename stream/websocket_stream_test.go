@@ -17,7 +17,7 @@ package stream
 import (
 	"testing"
 
-	"github.com/gomqtt/packet"
+	"git.baintex.com/sentio/gomqtt/packet"
 	"github.com/gorilla/websocket"
 	"github.com/stretchr/testify/require"
 )

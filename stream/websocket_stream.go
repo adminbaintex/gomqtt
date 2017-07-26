@@ -15,7 +15,7 @@
 package stream
 
 import (
-	"github.com/gomqtt/packet"
+	"git.baintex.com/sentio/gomqtt/packet"
 	"github.com/gorilla/websocket"
 )
 

@@ -15,12 +15,12 @@
 package stream
 
 import (
-	"bytes"
-	"testing"
-	"io/ioutil"
 	"bufio"
+	"bytes"
+	"io/ioutil"
+	"testing"
 
-	"github.com/gomqtt/packet"
+	"git.baintex.com/sentio/gomqtt/packet"
 	"github.com/stretchr/testify/require"
 )
 
@@ -78,7 +78,7 @@ func BenchmarkBufferStream(b *testing.B) {
 	s := NewBufferStream(r, w)
 
 	for i := 0; i < b.N; i++ {
-		s.Send(<- s.Incoming())
+		s.Send(<-s.Incoming())
 	}
 
 	s.Close()

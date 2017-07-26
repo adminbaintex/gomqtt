@@ -21,7 +21,7 @@ import (
 	"time"
 
 	"github.com/gorilla/websocket"
-	"github.com/gomqtt/packet"
+	"git.baintex.com/sentio/gomqtt/packet"
 )
 
 // the errorWriter

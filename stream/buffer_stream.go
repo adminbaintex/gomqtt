@@ -18,7 +18,7 @@ import (
 	"bufio"
 	"io"
 
-	"github.com/gomqtt/packet"
+	"git.baintex.com/sentio/gomqtt/packet"
 )
 
 // The BufferStream wraps an io.reader and an io.writer.

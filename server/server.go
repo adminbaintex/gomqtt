@@ -21,7 +21,7 @@ import (
 	"net"
 	"net/http"
 
-	"github.com/gomqtt/stream"
+	"git.baintex.com/sentio/gomqtt/stream"
 	"github.com/gorilla/websocket"
 )
 
@@ -32,7 +32,7 @@ type Handler func(stream stream.Stream)
 // protocol and address.
 type Configuration struct {
 	Protocol string
-	Address string
+	Address  string
 
 	listener net.Listener
 }
@@ -53,7 +53,7 @@ type Server struct {
 // NewServer returns a new Server.
 func NewServer(handler Handler) *Server {
 	return &Server{
-		Handler: handler,
+		Handler:        handler,
 		Configurations: make([]Configuration, 0),
 	}
 }
@@ -67,7 +67,7 @@ func (s *Server) LaunchTCPConfiguration(address string) error {
 
 	s.Configurations = append(s.Configurations, Configuration{
 		Protocol: "tcp",
-		Address: address,
+		Address:  address,
 		listener: l,
 	})
 
@@ -112,7 +112,7 @@ func (s *Server) LaunchWSConfiguration(address string) error {
 
 	s.Configurations = append(s.Configurations, Configuration{
 		Protocol: "ws",
-		Address: address,
+		Address:  address,
 		listener: l,
 	})
 

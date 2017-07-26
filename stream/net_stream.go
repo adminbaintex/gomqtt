@@ -19,7 +19,7 @@ import (
 	"io"
 	"net"
 
-	"github.com/gomqtt/packet"
+	"git.baintex.com/sentio/gomqtt/packet"
 )
 
 // The NetStream wraps an io.reader and an io.writer.

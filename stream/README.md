@@ -2,8 +2,8 @@
 
 [![Circle CI](https://img.shields.io/circleci/project/gomqtt/stream.svg)](https://circleci.com/gh/gomqtt/stream)
 [![Coverage Status](https://coveralls.io/repos/gomqtt/stream/badge.svg?branch=master&service=github)](https://coveralls.io/github/gomqtt/stream?branch=master)
-[![GoDoc](https://godoc.org/github.com/gomqtt/stream?status.svg)](http://godoc.org/github.com/gomqtt/stream)
-[![Release](https://img.shields.io/github/release/gomqtt/stream.svg)](https://github.com/gomqtt/stream/releases)
+[![GoDoc](https://godoc.org/git.baintex.com/sentio/gomqtt/stream?status.svg)](http://godoc.org/git.baintex.com/sentio/gomqtt/stream)
+[![Release](https://img.shields.io/github/release/gomqtt/stream.svg)](https://git.baintex.com/sentio/gomqtt/stream/releases)
 [![Go Report Card](http://goreportcard.com/badge/gomqtt/stream)](http://goreportcard.com/report/gomqtt/stream)
 
 **Package stream implements functionality for handling [MQTT 3.1.1](http://docs.oasis-open.org/mqtt/mqtt/v3.1.1/) packet streams.**
@@ -19,7 +19,7 @@
 Get it using go's standard toolset:
 
 ```bash
-$ go get github.com/gomqtt/stream
+$ go get git.baintex.com/sentio/gomqtt/stream
 ```
 
 ## Usage
