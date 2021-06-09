@@ -121,7 +121,7 @@ func (as *AbstractStream) exit(err error) {
 
 	if !as.closed {
 		as.closed = true
-		as.error = err
+		err = as.error
 
 		if as.closer != nil {
 			as.closer()
@@ -148,6 +148,7 @@ func (as *AbstractStream) write() {
 			err := as.encoder(pkt)
 
 			if err != nil {
+				as.error = err
 				as.exit(err)
 			}
 		}
@@ -171,6 +172,7 @@ func (as *AbstractStream) read() {
 		}
 
 		if err != nil {
+			as.error = err
 			if err == ErrExpectedClose {
 				as.exit(nil)
 			} else {
