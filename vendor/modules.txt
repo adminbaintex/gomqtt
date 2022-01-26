@@ -1,7 +1,7 @@
 # github.com/davecgh/go-spew v1.1.0
 ## explicit
 github.com/davecgh/go-spew/spew
-# github.com/gorilla/websocket v0.0.0-20170718202341-a69d9f6de432
+# github.com/gorilla/websocket v0.0.0-20151216051058-3986be78bf85
 ## explicit
 github.com/gorilla/websocket
 # github.com/pmezard/go-difflib v1.0.0
