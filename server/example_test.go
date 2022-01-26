@@ -18,13 +18,13 @@ import (
 	"fmt"
 	"net"
 
-	"git.baintex.com/sentio/gomqtt/stream"
+	"github.com/adminbaintex/gomqtt/stream"
 )
 
 func ExampleServer() {
 	done := make(chan struct{})
 
-	server := NewServer(func(s stream.Stream){
+	server := NewServer(func(s stream.Stream) {
 		fmt.Println("new connection")
 
 		<-s.Error()

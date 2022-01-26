@@ -21,7 +21,7 @@ import (
 	"net"
 	"net/http"
 
-	"git.baintex.com/sentio/gomqtt/stream"
+	"github.com/adminbaintex/gomqtt/stream"
 	"github.com/gorilla/websocket"
 )
 
