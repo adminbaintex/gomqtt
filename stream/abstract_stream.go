@@ -18,7 +18,7 @@ import (
 	"errors"
 	"sync"
 
-	"git.baintex.com/sentio/gomqtt/packet"
+	"github.com/adminbaintex/gomqtt/packet"
 )
 
 // ErrExpectedClose is returned by the Encoder and Decoder functions if they

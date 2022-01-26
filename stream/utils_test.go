@@ -20,8 +20,8 @@ import (
 	"net/http"
 	"time"
 
+	"github.com/adminbaintex/gomqtt/packet"
 	"github.com/gorilla/websocket"
-	"git.baintex.com/sentio/gomqtt/packet"
 )
 
 // the errorWriter
@@ -43,7 +43,7 @@ func (ir *infiniteReader) Read(p []byte) (int, error) {
 }
 
 // the messageReader
-type messageReader struct{
+type messageReader struct {
 	data []byte
 }
 

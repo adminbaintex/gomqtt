@@ -16,7 +16,7 @@
 // (http://docs.oasis-open.org/mqtt/mqtt/v3.1.1/) packet streams.
 package stream
 
-import "git.baintex.com/sentio/gomqtt/packet"
+import "github.com/adminbaintex/gomqtt/packet"
 
 // Stream is an abstract interface for all transport streams.
 type Stream interface {

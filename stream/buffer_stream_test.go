@@ -20,7 +20,7 @@ import (
 	"io/ioutil"
 	"testing"
 
-	"git.baintex.com/sentio/gomqtt/packet"
+	"github.com/adminbaintex/gomqtt/packet"
 	"github.com/stretchr/testify/require"
 )
 
